@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-Check out my website at https://gago.sys.github.io
+Check out my website at https://gago-sys.github.io
 
 # Built with
 
