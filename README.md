@@ -1,12 +1,12 @@
 # Personal Portfolio
 
-Check out my website at https://gago-sys.github.io
+Explora mi website: https://gago-sys.github.io
 
-# Built with
+# Construido con:
 
 - HTML
 - CSS
 - JavaScript
 
-# Acknowledgments
+# Reconocimientos:
 - [AOS](https://github.com/VincentGarreau/particles.js/) - Particles animation
