@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("fontawesome-all.min.css");
+
+html , body, header, div, h1, .hero, .topnav, .inner-wrapper{
+    display: block;
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js {
+    position: fixed;
+    background:#12d0fa;
+    width: 100%;
+    height: 100%;
+    /* margin: 0;
+    background-size: 100% 100%; */
+    /* background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("images/bg.jpg"); */
+    /* position: relative; */
+    /* animation-name: animate;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+}
+
+/* @keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+} */
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    #particles-js, .header, .topnav , .menu, #footer {
+      width: 100%;
+    }
+}
+
+.hero {
+    position:fixed;
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(49, 154, 183); */
+    align-items: center; 
+    top: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    top: 40%;
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+    width: auto;
+    height: 8%;
+    color:aliceblue;
+    font-family: Georgia, serif;
+    font-size:380%;
+}
+
+header p {
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: system-ui;
+    font-size: 140%;
+    text-align: center;
+    margin: 1%;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.topnav {
+    position:fixed;
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(49, 154, 183); */
+    align-items: center; 
+    top: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    top: 10%;
+    background-color: rgb(49, 154, 183);
+    color: #fbfbfb;
+    text-align: center;
+    padding: 17px 16px;
+    margin: 4px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 20px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.main-font {
+    color: rgb(239, 195, 34);
+}
+
+
+
+
+.menu {
+    position:fixed;
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(49, 154, 183); */
+    align-items: center; 
+    top: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}  
+
+.menu li{
+    display: inline;
+    padding: 50px;
+}
+
+.brand-twitter {
+    color: rgb(226, 90, 106);
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.brand-twitter:hover {
+    color:rgb(115, 124, 159);
+    transform: scale(1.2);
+
+}
+
+.brand-linkedin {
+    color: rgb(7, 101, 253);
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.brand-linkedin:hover {
+    color:aliceblue;
+    transform: scale(1.2);
+}
+
+.brand-github {
+    color:black;
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.brand-github:hover {
+    color:coral;
+    transform: scale(1.2);
+}
+
+#footer {
+    width: 100%;
+    position: fixed;
+    font-family:cursive;
+    font-weight: 400;
+    top: 95%;
+    left: 30%;
+}
+
+#footer a {
+    font-size: 140%;
+    background-color:aliceblue
+}
+
+/* mail-form */
+
+.container{
+    background:#f2f2f2 ;
+    position: fixed;
+}
+
+h1 {
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 10%;
+    /* left: 40%; */
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 40px;
+}
+
+.info {
+    display:flex;
+    flex-wrap:wrap;
+    width: auto;
+    height: 60%;
+    padding: 30px 60px;
+    border-radius: 5px;
+    position: fixed;
+    top: 20%;
+    align-items: center;
+    left: 10%;
+    right: 10%;
+}
+
+.form-label {
+    font-size: 20px;
+    top: 18%;
+}
+
+.givenname {
+    width: 50%;
+    height: 20%;
+}
+
+.surname {
+    width: 50%;
+    height: 20%;
+}
+
+.email {
+    width: 50%;
+    height: 20%;
+}
+
+.number {
+    width: 50%;
+    height: 20%;
+}
+
+input.form-control {
+    width: 95%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+textarea#comments {
+    width: 85%;
+}
+
+.notes {
+    width: 100%;
+    height: 50%;
+}
+
+.details {
+    height: 80%;
+}
+
+.send {
+    background-color: #50ba93;
+    color: white;
+    border-radius: 4px;
+    position: relative;
+    /* top: 10%; */
+    left: 84%;
+    font-size: 18px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color: #21956b;
+}
+
+.previous {
+    font-family: "Gill Sans", sans-serif;
+    text-decoration: none;
+    position: fixed;
+    top: 79%;
+    background-color: #50ba93;
+    /* border-color: #5d5656; */
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    left: 16%;
+    padding: 14px 10px;
+    cursor: pointer;
+}
+
+.previous:hover {
+    background-color: #21956b;
+}
