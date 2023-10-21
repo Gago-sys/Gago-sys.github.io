@@ -11,10 +11,36 @@
     
     <div class="container">
         <h1 class="intro">Contactame</h1>
-        <form class="info" action="https://formsubmit.co/gagoenzo.sys@gmail.com" method="POST">
-             <input type="text" name="name" required>
-             <input type="email" name="email" required>
-             <button type="submit">Send</button>
+        <form class="info" action="https://formsubmit.co/4ee3f6cb89a3c68b77154c1d66cc53a4" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display:none;">
+
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            
+            <!-- success message link -->
+            <input type="hidden" name="_next" value="https://gago-sys.github.io/success.html">
+            
+            <div class="givenname">
+                <label for="firstName" class="form-label">Primer Nombre</label>
+                <input type="text" class="form-control" name="Name" placeholder="Tu primer nombre.." id="firstName" required>
+            </div>
+            <div class="surname">
+                <label for="lastName" class="form-label">Apellido</label>
+                <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" placeholder="Apellido.." required>
+            </div>
+            <div class="email">
+                <label for="mail" class="form-label">E-mail</label>
+                <input type="email" class="form-control" name="email" id="emailinfo" placeholder="ejemplo@gmail.com" required>
+            </div>
+            <div class="number">
+                <label for="phone" class="form-label">Numero de telefono</label><br>
+                <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (415) 867-5309">
+            </div>
+            <div class="notes">
+                <label for="note" class="form-label">Descripcion</label><br>
+                <textarea type="text" class="details" name="Questions" id="comments" placeholder="Escribe algo de tu interes..." required></textarea>
+            </div>
         </form>
         <a class="previous" href="https://gago-sys.github.io">&laquo;&nbsp;Previous</a>
     </div>
